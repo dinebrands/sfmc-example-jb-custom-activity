@@ -6,8 +6,7 @@
   "description": "Journey Builder Custom Activities",
   "license": "BSD-3-Clause",
   "engines": {
-    "node": "18.12.1",
-    "npm": "8.19.2"
+    "node": "^12.12.16"
   },
   "scripts": {
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
