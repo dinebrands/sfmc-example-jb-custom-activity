@@ -5,6 +5,10 @@
   "author": "Salesforce Marketing Cloud",
   "description": "Journey Builder Custom Activities",
   "license": "BSD-3-Clause",
+  "engines" : { 
+    "npm" : ">=8.0.0 <9.0.0",
+    "node" : ">=16.0.0 <17.0.0"
+  }
   "scripts": {
     "dev": "concurrently \"npm start\" \"webpack --watch\"",
     "build": "webpack --mode production",
