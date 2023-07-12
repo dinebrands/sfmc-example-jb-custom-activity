@@ -956,100 +956,6 @@ const requestedInteraction = {
                 "specificDate": "",
                 "waitForEventKey": ""
             }
-        },
-        {
-            "key": "WAITBYDURATION-5",
-            "name": "1 minute",
-            "description": "",
-            "type": "WAIT",
-            "outcomes": [
-                {
-                    "key": "fbc33aea-3924-42fe-885a-911dff080f18",
-                    "arguments": {},
-                    "metaData": {
-                        "invalid": false
-                    },
-                    "next": null
-                }
-            ],
-            "schema": {
-                "arguments": {
-                    "endDate": {
-                        "dataType": "Date",
-                        "isNullable": false,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitEndDateAttributeDataBound": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitDefinitionId": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitForEventId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "executionMode": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "startActivityKey": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitQueueId": {
-                        "dataType": "LongNumber",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    }
-                }
-            },
-            "metaData": {
-                "isConfigured": true,
-                "isExtended": false,
-                "waitType": "duration",
-                "guidanceCardKey": "",
-                "uiType": "WAITBYDURATION"
-            },
-            "arguments": {
-                "waitEndDateAttributeDataBound": "",
-                "waitDefinitionId": "52b04ac2-4d95-4ff6-b687-a41cc5041861",
-                "waitForEventId": "",
-                "executionMode": "{{Context.ExecutionMode}}",
-                "startActivityKey": "{{Context.StartActivityKey}}",
-                "waitQueueId": "{{Context.WaitQueueId}}"
-            },
-            "configurationArguments": {
-                "waitDuration": 1,
-                "waitUnit": "MINUTES",
-                "specifiedTime": "00:00",
-                "timeZone": "Eastern Standard Time",
-                "description": "",
-                "waitEndDateAttributeExpression": "",
-                "specificDate": "",
-                "waitForEventKey": ""
-            }
         }
     ],
     "persistenceModel_asyncStopping": {},
@@ -1123,4 +1029,4 @@ export default {
     onInitActivity: onInitActivity,
     requestedInteractionDefaults: requestedInteractionDefaults,
     requestedInteraction: requestedInteraction
-}
+} 	
